@@ -8,7 +8,7 @@
 
 
 
-Team: [Phoenix Aviators](https://www.spaceappschallenge.org/2023/find-a-team/rocket-hacks/)
+Team: [Phoenix Eye or Rocket Hacks](https://www.spaceappschallenge.org/2023/find-a-team/rocket-hacks/)
 
 
 
@@ -18,23 +18,27 @@ A resilient Machine Learning system for forecasting future time-lapsed wildfire 
 1. [About the project](#About-the-project)
 2. [Introduction](#Introduction)
 3. [Video](#Video)
-4. [Fire Prediction Visualization](#Fire-Prediction-Visualization)
-5. [Prototype](#Prototype)
+4.  [🔥 Wildfire Tracker Web Application](#-wildfire-tracker-web-application)
+5.  [Emergency Response Handheld Device Prototype (ERHD)](#emergency-response-handheld-device-prototype-erhd)
 6. [Dataset preparation](#Dataset-preparation)  
 7. [Instructions to Run Models](#Instructions-to-Run-Models)
 8. [Models Comparisson](#Models-Comparisson)
 9. [LoRa communication](#LoRa-Communication)
-10. [Business Model](#Business-Model)
-11. [File Descriptions](#File-Descriptions)
-12. [Document or report](#Document-or-report)
-13. [Languages, frameworks, platforms, APIs, & other technologies used](#Languages,-frameworks,-platforms,-APIs,-&-other-technologies-used)
-14. [Team members & their contributions](#Team-members-&-their-contributions)
+10. [Fire Prediction System Architecture: A Future Plan](#fire-prediction-system-architecture-a-future-plan)
+11. [Business Model](#Business-Model)
+12. [Future](#Future)
+13. [File Descriptions](#File-Descriptions)
+14. [Document or report](#Document-or-report)
+15. [Languages, frameworks, platforms, APIs, & other technologies used](#Languages,-frameworks,-platforms,-APIs,-&-other-technologies-used)
+16. [Team members & their contributions](#Team-members-&-their-contributions)
 
 ## About the project
 Submission for the https://www.spaceappschallenge.org/2023/challenges/managing-fire-increasing-community-based-fire-management-opportunities/
 
 
 In response to the ongoing global trend of increasing temperatures leading to a higher frequency of wildfires, the region of Sonora, Mexico, has emerged as one of the top ten areas within Mexico grappling with substantial wildfire-related challenges. Due to this critical situation, we are developing a computer program designed to predict the path of wildfires effectively. This program operates as an intelligent predictive tool and harnesses the capabilities of Convolutional Neural Networks, a well-established and highly effective method for such predictive tasks.
+
+
 
 Recognizing that reliable internet or cellular connectivity may be limited, particularly in remote areas, we are incorporating a specialized alert system that functions independently of the internet. This system relies on LoRaWAN technology, which facilitates long-distance alert transmission without the need for internet connectivity.
 
@@ -43,7 +47,7 @@ Furthermore, our project includes the creation of a website featuring a 3D map d
 Our objective is to employ advanced computer tools and specialized alert systems to notify individuals when an impending fire is approaching their location, particularly in remote and challenging-to-access areas.
 
 <p align="center">
-<img src="https://www.meganoticias.mx/uploads/noticias/incendio-en-imuris-con-mas-de-100-personas-sigue-encendido-433407.jpeg" alt="Texto Alternativo" width="400"/>
+<img src="https://www.meganoticias.mx/uploads/noticias/incendio-en-imuris-con-mas-de-100-personas-sigue-encendido-433407.jpeg" alt="Texto Alternativo" width="600"/>
 </p>
 
 
@@ -61,7 +65,7 @@ In addition to these high-tech solutions, it's important to note that some commu
 > Juan Mario Cirett Gálan
 <p align="center">
   <a href="https://www.nmas.com.mx/nmas-local/programas/las-noticias-sonora/videos/impacto-incendios-forestales-medio-ambiente-sonora">
-    <img src="images/marioFuego.jpg" alt="Texto Alternativo" width="400"/>
+    <img src="images/marioFuego.jpg" alt="Texto Alternativo" width="600"/>
   </a>
 </p>
 
@@ -70,56 +74,177 @@ In addition to these high-tech solutions, it's important to note that some commu
 
 This underscores the need for our project to also consider and incorporate traditional and expert-based methods of wildfire prediction. This will ensure that our advanced tools and specialized alert systems are complemented by the wealth of existing local knowledge, offering a more comprehensive and adaptable solution for wildfire prediction and management in Sonora. We are aiming to exapnd into the whole world not only in Sonora.
 
+
 ## Introduction
-The rising number of forest fires has been significantly worsened by elevated global temperatures, largely attributed to human activities. Within this framework, the state of Sonora, Mexico, has become particularly susceptible, ranking among the top ten most fire-affected areas nationally. Due to this trend, the urgent need for effective predictive models that can prognosticate fire expansion and thereby facilitate timely alerts for at-risk populations. 
+The Wildfire Prediction and Alert System is a sophisticated initiative developed in response to the escalating number of forest fires, exacerbated by increased global temperatures—a situation largely attributed to human activities. This advanced system utilizes machine learning to predict wildfire spread and deliver critical alerts to populations in high-risk areas, particularly focusing on the state of Sonora, Mexico, which ranks among the nation's most wildfire-prone regions.
 
 <p align="center">
-<img src="https://cdn.unotv.com/images/2023/06/incendios-forestales-en-sonora-siguen-activos-animales-estan-muriendo-093141.jpg" alt="Texto Alternativo" width="400"/>
+<img src="https://cdn.unotv.com/images/2023/06/incendios-forestales-en-sonora-siguen-activos-animales-estan-muriendo-093141.jpg" alt="Texto Alternativo" width="600"/>
 </p>
 
 <p align="center">
 Above: Wildfire in Imuris, Sonora on June. 23 2023
 </p>
 
-To address this critical issue, this project proposes two predictive models. The first model is based on Convolutional Neural Networks (CNNs) and Long Short-Term Memory (LSTM) networks to estimate wildfire spread. The second model utilizes Random Forest, which is a machine learning algorithm that employs decision trees to make predictions. These machine learning approaches provide highly accurate estimations of wildfire spread, thus facilitating timely alerts for populations most at risk. 
+## Background
+The state of Sonora, confronted with the harsh realities of climate change, witnesses a high frequency of forest fires, underscoring the need for robust predictive models. This project presents a dual-model approach for predicting wildfire trajectories: one harnessing the predictive power of Convolutional Neural Networks (CNNs) and Long Short-Term Memory (LSTM) networks, and the other employing a Random Forest algorithm that uses decision trees for forecast generation. These technologies work in tandem to produce highly accurate wildfire spread estimations, enabling the issuance of timely alerts to at-risk populations.
 
-Moreover, recognizing the infrastructural limitations of remote communities, we integrated a LoRaWAN-based alert system. This system is strategically designed to reach isolated or internet-deficient areas, effectively maximizing alert coverage in regions critically impacted by wildfires. 
+Recognizing the infrastructural challenges faced by remote communities—particularly those with limited access to internet and power—we have integrated a LoRaWAN-based alert system. This innovation is pivotal in reaching the most isolated and vulnerable areas, ensuring that critical alerts are disseminated without fail in regions severely affected by wildfires.
 
-In addition to the alert system, we have developed a web interface intended for use by researchers and assisting groups, such as firefighters, to facilitate a more in-depth analysis of the predictive data.
+Complementing our alert system is a web interface designed for researchers, firefighting squads, and other stakeholders, enabling them to conduct a thorough analysis of the predictive data. This tool is crucial for strategic planning and intervention, providing an interactive platform for monitoring fire progression and response efficacy.
 
 <p align="center">
-<img src="images/AntenasPhoenix.png" alt="Texto Alternativo" width="400"/>
+<img src="images/AntenasPhoenix.png" alt="Texto Alternativo" width="600"/>
 </p>
+
+
+## Benefits
+
+### Enhanced Community Safety
+- Timely evacuation alerts.
+- Inclusive access to alerts in remote areas with limited internet.
+
+
+
+<p align="center">
+<img src="images/FAMFELIX.jpg" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+### Effective Resource Management
+- Data-driven allocation of firefighting resources.
+- Improved emergency response strategies.
+
+<p align="center">
+<img src="images/EMERGENCYPLAN.jpg" alt="Texto Alternativo" width="600"/>
+</p>
+
+### Environmental Protection
+- Proactive measures for habitat and biodiversity conservation.
+- Reduced environmental impact from uncontrolled wildfires.
+
+<p align="center">
+<img src="images/bosque.jpg" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+### Data-Driven Decision Making
+- Enables comprehensive wildfire behavior analysis.
+- Facilitates continuous model improvement and accuracy.
+
+
+<p align="center">
+<img src="images/FUEGOSS.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+
 
 ## Video
 
 <p align="center">
-  <a href="https://youtu.be/IwxJKA0R6RQ">
-    <img src="https://img.youtube.com/vi/IwxJKA0R6RQ/0.jpg" alt="Nombre del Video" width="900">
+  <a href="https://youtu.be/8f3ueV6ZkkE">
+    <img src="https://img.youtube.com/vi/8f3ueV6ZkkE/0.jpg" alt="Nombre del Video" width="900">
   </a>
 </p>
 
 
-## Fire Prediction Visualization
+
+## 🔥 Wildfire Tracker Web Application
 
 <p align="center">
-  <a href="https://youtu.be/u4Ig2gYqvuU">
-    <img src="https://img.youtube.com/vi/u4Ig2gYqvuU/0.jpg" alt="Nombre del Video" width="900">
+  <a href="https://youtu.be/9hpwcJp4veI">
+    <img src="https://img.youtube.com/vi/9hpwcJp4veI/0.jpg" alt="Nombre del Video" width="900">
   </a>
 </p>
 
 
+<p align="center">
+  <img src="images/PAGINAWEB.png" alt="Image Alt Text">
+</p>
+
+
+This web application provides a dynamic 3D mapping solution for monitoring and predicting wildfire spread in real-time. Using Mapbox's advanced terrain mapping, users can visualize the affected areas with precision, represented by an overlay on the map. The interactive timeline feature allows for playback of the fire's progression, giving invaluable insights for emergency response and evacuation planning.
+
+## 🌟 Features
+
+- **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
+- **Time Control Playback**: Scrub through time to view the fire's trajectory at different stages.
+- **Real-Time Alerts**: A dedicated panel lists the alerts sent, indicating the predicted time for the fire to reach key locations, enhancing situational awareness.
+- **User Interface Controls**: Intuitive icons allow users to toggle map layers, tools, and access additional information.
+- **Navigation Data Display**: Real-time updates on latitude, longitude, eye level, temperature, and territory for detailed monitoring.
+- **Responsive Design**: Tailwind CSS ensures a mobile-friendly and responsive layout across all devices.
+
+## 🛠 Technologies
+
+- **Mapbox**: For rendering 3D interactive maps.
+- **Next.js**: A React framework that enables server-side rendering and generates the web app.
+- **TypeScript**: For writing scalable, error-checked codebase.
+- **CSS & JavaScript**: For styling and interactive elements.
+- **NextAuth.js**: For authentication handling.
+- **Prisma**: As the ORM for database transactions.
+- **tRPC**: Enables end-to-end typesafe APIs.
+- **Tailwind CSS**: For utility-first styling.
+- **Vercel**: Platform for deploying and hosting the web application.
+
+## 📖 Usage
+
+The web app allows users to visualize fire spread in relation to the terrain and infrastructure. Green markers indicate points of interest, and the red overlay details the fire's current and predicted area. Use the time control to view the forecasted fire spread and check the alerts panel for real-time notifications regarding fire movement.
+
+This application serves as a critical tool for communities and first responders to anticipate and react to wildfires, potentially saving lives and property by providing an advanced warning system.
 
 
 
 
-## Prototype
+## Emergency Response Handheld Device Prototype (ERHD)
 
 In the prototype phase, we utilized Shapr3D to create a 3D model of our device, which takes the shape of a rectangular box. Housed within this box are a LoRa communication module and its corresponding antenna, responsible for receiving data. Additionally, the device is equipped with an auditory alarm system, activated by a buzzer, to alert users in the event of an approaching fire. A push button is also integrated into the design, allowing users to manually deactivate the alarm. Given that the target market for this product comprises communities without access to electrical infrastructure, the device incorporates a solar panel for energy harvesting and recharging. This ensures continuous operation by harnessing sunlight for power, converting it into stored energy, and facilitating effortless recharging of the device. 
 
 <p align="center">
-<img src="images/prototype.png" alt="Texto Alternativo" width="400"/>
+<img src="images/prototype.png" alt="Texto Alternativo" width="500"/>
 </p>
+
+## Emergency Response Handheld Device (ERHD) - Development Plan
+
+
+<p align="center">
+<img src="images/LoRa Device.png" alt="Texto Alternativo" width="500"/>
+</p>
+
+  
+The Emergency Response Handheld Device (ERHD) is under development as a cutting-edge aid for emergency scenarios, focusing particularly on wildfire monitoring. This outlines the intended features and functionalities of the ERHD, designed to support first responders and emergency teams in difficult environments.
+
+### Planned Features
+
+- **Dual-Display System**: Two screens are planned; the left for an interactive map indicating wildfires, and the right for communication and technical data.
+- **High-Gain Antenna**: An antenna for long-range communication will be integrated to maintain reliable contact in remote locations.
+- **User Interface**: Designed with tactile buttons for easy navigation through the device's functions.
+- **Solar Charging**: A built-in solar panel will provide a sustainable power source.
+- **Durable Construction**: Built to withstand tough field conditions.
+
+### Implementation Steps
+
+1. **Initial Charging**: Charge fully before deployment, using solar power or the provided charger.
+2. **Device Activation**: Power on the device with a long press on the power button.
+3. **Interface Navigation**: Buttons are designed for quick access to functions, even with gloves on.
+4. **Communication Configuration**: The right screen will offer setup guidance for communication links.
+
+### Intended Use and Care
+
+- Avoid exposing the ERHD to water and extreme temperatures.
+- Use only the provided charger to prevent damage to the solar panel.
+- Check the antenna regularly for secure attachment and damage.
+
+### Maintenance and Updates
+
+- Keep the solar panel clean for efficiency.
+- Store the device in a temperature-controlled environment when not in use.
+- Apply software updates as they become available to ensure optimal performance and security.
+
+---
+
+**Note:** This device is in the development phase for the future.
+
+
 
 
 ## Dataset preparation
@@ -129,7 +254,7 @@ Data sources are mostly from https://firms.modaps.eosdis.nasa.gov/
 | Data source           | Description  |
 | --------------------- | ------------ |
 | [MODIS](https://modis.gsfc.nasa.gov/)                 | The Moderate Resolution Imaging Spectroradiometer (MODIS) MCD43A4 Version 6 Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) dataset is produced daily using 16 days of Terra and Aqua MODIS data at 500 meter (m) resolution. |
-|  [Mateomatics API ](https://www.meteomatics.com/en/weather-api/?ppc_keyword=meterological%20api&utm_term=meterological%20api&utm_campaign=API+meteo+(ES)&utm_source=adwords&utm_medium=ppc&hsa_acc=5001518620&hsa_cam=9635976224&hsa_grp=100215817118&hsa_ad=434708210612&hsa_src=g&hsa_tgt=kwd-1201933814859&hsa_kw=meterological%20api&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwp8OpBhAFEiwAG7NaEq-V1ESSXXNOJ1XH_BgrMDWIYdz85rLabfjejVCP15mr3NMZNFlUuRoCtp4QAvD_BwE) | The Meteomatics Weather API provides a comprehensive range of weather data including current conditions, historical data, short-term and seasonal forecasts, as well as marine, environmental, and climate data. It offers tailored solutions with an emphasis on accuracy, speed, and ease of access, catering to a broad range of industry needs​. |
+|  [Meteomatics API ](https://www.meteomatics.com/en/weather-api/?ppc_keyword=meterological%20api&utm_term=meterological%20api&utm_campaign=API+meteo+(ES)&utm_source=adwords&utm_medium=ppc&hsa_acc=5001518620&hsa_cam=9635976224&hsa_grp=100215817118&hsa_ad=434708210612&hsa_src=g&hsa_tgt=kwd-1201933814859&hsa_kw=meterological%20api&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwp8OpBhAFEiwAG7NaEq-V1ESSXXNOJ1XH_BgrMDWIYdz85rLabfjejVCP15mr3NMZNFlUuRoCtp4QAvD_BwE) | The Meteomatics Weather API provides a comprehensive range of weather data including current conditions, historical data, short-term and seasonal forecasts, as well as marine, environmental, and climate data. It offers tailored solutions with an emphasis on accuracy, speed, and ease of access, catering to a broad range of industry needs​. |
 | [FIRMS active fire data](https://firms.modaps.eosdis.nasa.gov/) | The Fire Information for Resource Management System (FIRMS) distributes Near Real-Time (NRT) active fire data within 3 hours of satellite observation from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard S-NPP and NOAA 20 at 375 meter (m) resolution. |
 | [Copernicus DEM](https://registry.opendata.aws/copernicus-dem/) | Digital Surface Model (DSM) which represents the surface of the Earth including buildings, infrastructure and vegetation.. |
 
@@ -145,7 +270,17 @@ Data sources are mostly from https://firms.modaps.eosdis.nasa.gov/
 
 
 #### Area to be analyzed 
-The notebook is designed to predict the path of fires in a specific area of ​​Nogales, Sonora, covering a sampling area of ​​64 km x 64 km, as you can see in figure 1. The data, which ranges from 2016 to 2023, comes from the FIRMS system (Fire Information for Resource Management System). Popular Python libraries such as matplotlib, seaborn, pandas, and numpy are used for data analysis and visualization. Additionally, the machine learning model implements convolutional neural networks (CNN) and long short-term memory networks (LSTM). The notebook starts by importing these libraries and loading the data set from a CSV file. The data is then binned into 6-hour time intervals to facilitate subsequent analysis.
+The notebook is designed to predict the path of fires in a specific area of ​​Nogales, Sonora, covering a sampling area of ​​64 km x 64 km, as you can see in figure 1. The data, which ranges from 2016 to 2023, comes from the FIRMS system (Fire Information for Resource Management System). 
+
+<p align="center">
+    <img src="images/HeatMap.png" alt="Texto Alternativo" width="600"/>
+  </a>
+</p>
+
+<p align="center">Above: All the wildfires in the zone of Nogales, Sonora from 2016 to 2023 </p>
+
+
+Popular Python libraries such as matplotlib, seaborn, pandas, and numpy are used for data analysis and visualization. Additionally, the machine learning model implements convolutional neural networks (CNN) and long short-term memory networks (LSTM). The notebook starts by importing these libraries and loading the data set from a CSV file. The data is then binned into 6-hour time intervals to facilitate subsequent analysis.
 
 
 <p align="center">
@@ -153,7 +288,13 @@ Figure 1. Nogales Zone
 </p>
 
 
-<p align="center"><img src="images/lugar.png" alt="Texto Alternativo" width="600"/></p>
+<p align="center">
+  <img src="images/lugar.png" alt="Texto Alternativo" width="400"/>
+  <img src="images/NogalesWildfire.jpg" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+
 
 ### Data quality
 
@@ -164,25 +305,6 @@ In the study of fires and climate conditions, certain variables show considerabl
 
 The model pays special attention to the most recent information, as evidenced by the relationship between "Original Time 4" and "Actual Prediction 5." This feature is essential in situations where the most recent data is the most relevant for making predictions. The model's prediction, as seen in "Actual Prediction 5", appears to filter out and smooth out some of the noise present in the original images. This can be useful in identifying areas of primary interest and eliminating potential false alarms.
 
-
-
-
-<p align="center"><img src="images/Prediction.png" alt="Texto Alternativo" width="1000"/></p>
-
-
-### Future
-
-- Integrate LEO and also GEO satellites
-- We created that its expandable exonomics in term that we can ingest data into the machine learning model form LEO to GEO.
-
-
-
-
-
-
-
-
-
 ### How to run [Random Forest Model](https://github.com/jbric16/FlameForecast_Project/tree/main/Notebooks)
 
 1. [Download data set](https://www.kaggle.com/datasets/fantineh/next-day-wildfire-spread) This dataset is a comprehensive, multivariate compilation of historical wildfires in the United States over nearly a decade. It merges two-dimensional fire data with a rich set of explanatory variables like topography, weather, and vegetation, making it an ideal resource for machine learning applications. It comprises 18,445 samples, each representing a 64 km x 64 km region where a fire occurred. The dataset includes 'fire' vs. 'no fire' labels, with an extra category for uncertain labels. To study fire propagation, it contains both the previous day's fire mask and the current day's fire mask. Using Google Earth Engine, data from various sources are collated and layered with relevant variables for wildfire prediction, including elevation, temperature, humidity, and more. This dataset is invaluable for developing wildfire propagation models based on remote sensing data with a one-day lead time.
@@ -191,7 +313,6 @@ Examples from the data set as variables
 
 ![Examples](images/dataSetExamples.png)
 
-### How to run Cell2Fire Simulator
 
 
 ## Models Comparisson
@@ -202,9 +323,6 @@ Examples from the data set as variables
 |---------------|---------------|------------|-------------------|----------------|
 | ConvLSTM      | 0.92          | 0.75       | 0.99              | 0.99           |
 | RandomForest       | 0.30          | 0.44       | 0.98              | 0.97           |
-| Cell2Fire Simulator       | 0.30          | 0.44       | 0.98              | 0.97           |
-
-
 
 
 
@@ -231,8 +349,108 @@ The LoRa architecture seamlessly enables communication with our end node, which 
 To further enhance our non-Internet communication capabilities, we've implemented a network of three LoRa Gateways, effectively serving as signal repeaters. These gateways collaborate to extend the reach of Node End devices, acting as receivers, allowing them to transmit messages across distances of up to 45 kilometers without reliance on an internet connection, solely harnessing the capabilities of LoRa RF technology.
 
 
+## Fire Prediction System Architecture: A Future Plan
+
+
+
+<p align="center">
+  <img src="images/ArchitectureSystem2.png" alt="Image Alt Text">
+</p>
+
+The above architecture outlines an integrated system designed to proactively manage fire predictions and effectively communicate potential risks, combining sophisticated data processing and machine learning with direct communication to affected populations.
+
+
+
+The fire prediction system architecture is designed as a robust and advanced technological solution that leverages a myriad of modern data processing, machine learning, and communication technologies. Here's a detailed walkthrough of the envisioned plan:
+
+## Phase 1: Data Collection and Storage
+
+### External Data Sources
+Data is collected from various sources to ensure accuracy and reliability:
+- **MODIS Satellite Data**: Identifies potential fire activity areas.
+- **Meteomatics Weather Data**: Provides vital information for understanding fire behavior.
+- **NASA FIRMS Historical Wildfire Data**: Offers historical insights for model training.
+
+### Azure Functions
+These are utilized for the automated collection and preliminary processing of data.
+
+### Azure Storage
+Serves as a secure, scalable, and reliable data storage solution.
+
+## Phase 2: Data Processing and Model Training
+
+### Azure Databricks
+Handles data transformation and preparation for machine learning model training.
+
+### Azure ML (CNN + LSTM)
+Employs a hybrid model combining convolutional neural networks and LSTM for interpreting satellite imagery and sequential data patterns.
+
+### Azure Cosmos DB
+Stores the machine learning model's data, making it available for real-time querying.
+
+## Phase 3: Model Deployment and Interface Services
+
+### Cognitive Services
+Utilized to provide advanced AI capabilities for data and image analysis and to enhance user interactions with natural language processing.
+
+### AKS (Azure Kubernetes Service)
+Hosts and manages the model prediction containers, ensuring scalable and resilient service delivery.
+
+### Endpoint API
+Acts as the gateway for applications to access predictions from the machine learning model.
+
+### Event Hubs
+Manages real-time data and event streams for dynamic updates.
+
+### IoT Central Applications
+Facilitates efficient communication with IoT devices, including LoRa devices, for alert transmissions.
+
+## Phase 4: User Interaction and Alerts
+
+### Bot Services
+Powered by Azure Cognitive Services for an interactive, user-friendly experience, allowing for context-aware dialogues and information dissemination.
+
+### Web and Mobile Apps with 3D Map
+Provides a user interface in the form of a web or mobile app, featuring a 3D map that visualizes fire predictions.
+
+### LoRa Devices
+Creates a network to communicate with remote communities for timely fire alerts, even in areas with limited internet connectivity.
+
+
+---
+
+The  components are planned for future implementation to complete the architecture.
+
+
 ## Business Model
 Click to check business model: https://miro.com/welcomeonboard/QWl0OWd2UUFpNGNvZGNyc2VWYXE2eWloV0gySkljT3NVSlFpb3RPeXpqcXhrMTI5UWFtamN3dXc4TGxiWFhVc3wzMDc0NDU3MzUwNTYyMDUwNTE4fDI=?share_link_id=428474196356
+
+
+<p align="center">
+  <img src="images/BusinessModelCanvas.png" alt="Image Alt Text">
+</p>
+
+## Future
+
+<p align="center"><img src="images/COLLAGE.png" alt="Texto Alternativo" width="1000"/></p>
+
+
+1. **Satellite Network Implementation**:
+In the future, our plan is to implement a network that harnesses both LEO and GEO satellites, providing a dual-layered approach to monitor and detect wildfires globally with unprecedented precision.
+
+2. **Data Management and Expansion Strategy**:
+We will design and establish an adaptable economic model, intended to seamlessly process and integrate the influx of data from our satellite network into a cutting-edge machine learning algorithm.
+
+3. **Strategic Government Alliances**:
+Looking ahead, we intend to collaborate with government agencies, with the aim of incorporating our technology into national emergency response strategies to provide real-time alerts for wildfires, thereby enhancing public safety and environmental protection.
+
+4. **Global Expansion Framework**:
+As part of our future strategy, we plan to scale our operations beyond the initial implementation in Nogales, Sonora, aiming to refine and adapt our model for global applicability. This will involve retraining our machine learning algorithms with diverse datasets to ensure accuracy and effectiveness in a variety of ecosystems and topographies around the world.
+
+5. **Communication Infrastructure Enhancement**:
+In the future, we also plan to integrate SMS (Short Message Service) technology into our alert system. This will enable us to send immediate fire alerts directly to individuals and communities at risk, regardless of their internet connectivity, thereby broadening the reach and impact of our emergency response measures on a global scale.
+
+
 
 
 ## File Descriptions 
@@ -246,7 +464,7 @@ Click to check business model: https://miro.com/welcomeonboard/QWl0OWd2UUFpNGNvZ
 
 ## Languages, frameworks, platforms, APIs, & other technologies used
 
-- Python 3 used for processing, modelling and visualisation
+- Python 3 used for processing, modelling and visualization
 - Scikit for feature importance visualisation
 - Deep learning used Keras/tensorflow
 - https://firms.modaps.eosdis.nasa.gov/ for VIIRS fire data
@@ -258,6 +476,13 @@ Click to check business model: https://miro.com/welcomeonboard/QWl0OWd2UUFpNGNvZ
 ## Team members & their contributions
 
 Note that each team member helped in contribuitng with all this. 
+
+- [Hector Gutierrez](https://github.com/HectorGtz27)
+- [Jose Briceño](https://github.com/jbric16)
+- [Camila Rodriguez](https://github.com/camilardgzm)
+- [Mariana Garcia](https://github.com/marianaagrcg)
+- [Cesar Silva](https://github.com/casrhub)
+- [Daniel Barreras](https://github.com/DanielBrMz)
 
 ![Examples](images/Team.jpg)
 
