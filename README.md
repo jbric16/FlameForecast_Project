@@ -282,7 +282,7 @@ The notebook is designed to predict the path of fires in a specific area of â€‹â
 
 <p align="center">Above: All the wildfires in the zone of Nogales, Sonora from 2016 to 2023 </p>
 
-# Dataset
+### Dataset
 For deep learning model training, the dataset is a CSV file. The CSV are split approximately into 2 subsets for model training (80%) and validation (20%). We use the following feature as input to train the model:
 
 - Fire
