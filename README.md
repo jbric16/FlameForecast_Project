@@ -173,6 +173,7 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 - **User Interface Controls**: Intuitive icons allow users to toggle map layers, tools, and access additional information.
 - **Navigation Data Display**: Real-time updates on latitude, longitude, eye level, temperature, and territory for detailed monitoring.
 - **Responsive Design**: Tailwind CSS ensures a mobile-friendly and responsive layout across all devices.
+- **FlameGuardian Chatbot**: An interactive chatbot for users to ask questions and receive advice about wildfires, enhancing user engagement and providing valuable information.
 
 ## 🛠 Technologies
 
@@ -188,7 +189,9 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 ## 📖 Usage
 
-The web app allows users to visualize fire spread in relation to the terrain and infrastructure. Green markers indicate points of interest, and the red overlay details the fire's current and predicted area. Use the time control to view the forecasted fire spread and check the alerts panel for real-time notifications regarding fire movement.
+The web app allows users to visualize fire spread in relation to the terrain and infrastructure. Green markers indicate points of interest, and the red overlay details the fire's current and predicted area. Use the time control to view the forecasted fire spread and check the alerts panel for real-time notifications regarding fire movement. In addition to visualizing fire spread and receiving real-time alerts, users can interact with the "FlameGuardian" chatbot. This feature allows users of all ages to ask specific questions regarding wildfires, like what actions to take if a fire is within 20 km. The chatbot can provide personalized advice, enhancing the app's educational and preventive capabilities.
+
+For instance, a user concerned about an approaching wildfire can query the chatbot for safety measures, evacuation routes, or the status of the fire. The chatbot's integration into the application enriches the user experience by providing a quick and interactive way to access critical information, making the tool not only a monitoring solution but also a platform for education and awareness regarding wildfire safety and preparedness.
 
 This application serves as a critical tool for communities and first responders to anticipate and react to wildfires, potentially saving lives and property by providing an advanced warning system.
 
