@@ -280,6 +280,14 @@ The notebook is designed to predict the path of fires in a specific area of â€‹â
 <p align="center">Above: All the wildfires in the zone of Nogales, Sonora from 2016 to 2023 </p>
 
 
+<p align="center">
+    <img src="images/Prediction.png" alt="Texto Alternativo" width="600"/>
+  </a>
+</p>
+
+
+
+
 Popular Python libraries such as matplotlib, seaborn, pandas, and numpy are used for data analysis and visualization. Additionally, the machine learning model implements convolutional neural networks (CNN) and long short-term memory networks (LSTM). The notebook starts by importing these libraries and loading the data set from a CSV file. The data is then binned into 6-hour time intervals to facilitate subsequent analysis.
 
 
