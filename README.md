@@ -279,7 +279,7 @@ The notebook is designed to predict the path of fires in a specific area of ​�
 
 <p align="center">Above: All the wildfires in the zone of Nogales, Sonora from 2016 to 2023 </p>
 
-# Dataset preparation
+# Dataset
 For deep learning model training, the dataset is a CSV file. The CSV are split approximately into 2 subsets for model training (80%) and validation (20%). We use the following feature as input to train the model:
 
 - Fire
@@ -287,16 +287,8 @@ For deep learning model training, the dataset is a CSV file. The CSV are split a
 The target output depends on how the data has been entered, if each matrix in the sequence represents one day of data, then the prediction would be for the next day based on the previous 4 days.
 
 
-# Data quality
 
-Data quality checks involve visualising examples of the dataset and generating descriptive statistics about each variables of dataset, such as mean and standard deviation so that the data can be normalised when required by the mode. Additionally this process should identify any anomlies or outliers in the dataset, which may require special attention. The readme in the data_quality folder provides further information. These checks were important since they identified that some features contained essentially the same information (e.g. NDVI & the landcore index) and allowed us to identify which features had the best overall data quality. An example single sample of data is shown below: note that not all features were used in the final model training.
-
-
-
-
-
-
-# Model training
+#### Model training
 
 - The model, which is a combination of Convolutional Neural Networks (CNN) and Long Short Term Memory (LSTM) Neural Networks, was trained using the Adam optimization algorithm. The binary cross-entropy loss function was minimized over 20 epochs with a batch size of 5. Additionally, techniques such as early stopping and learning rate reduction were implemented to improve training efficiency.
 
@@ -312,7 +304,7 @@ Data quality checks involve visualising examples of the dataset and generating d
  
  - Once the Convolutional and LSTM model was trained, predictions were generated for the validation set. Precision and completeness metrics were calculated to evaluate its performance. The resulting values ​​were a precision of 82.35% and a completeness of 74.14%.
 
-# Model evaluation
+#### Model evaluation
 
 The validation data subset is utilized to assess the ConvLSTM model's performance on data. This allows us to compare the results with other models and check if the model is doign corrdtc. Below are the performance metrics.
 
@@ -329,7 +321,7 @@ The model pays special attention to the most recent information, as evidenced by
 </p>
 
 
-# Future Work
+#### Future Work
 
 - AutoML Pipelines – Deploy AutoML pipelines to improve efficiency in model architecture and hyperparameter testing.
 
@@ -338,8 +330,6 @@ The model pays special attention to the most recent information, as evidenced by
 - Train the model with more layers: Experiment with deeper model architectures to capture more complex features.
 
 - Put it into production: Deploy the model in a production environment to evaluate its effectiveness in real-world scenarios.
-
-
 
 
 
@@ -358,9 +348,7 @@ Figure 1. Nogales Zone
 </p>
 
 
-
-
-### Data quality
+#### Data quality
 
 
 In the study of fires and climate conditions, certain variables show considerable variation, making them potentially important factors to consider. For instance, 'Brightness' and 'FRP (Fire Radiative Power)' in the fire dataset, along with 'Apparent Temperature', 'Heat Index', and 'Humidity' in the climate dataset, exhibit a wide range of values, suggesting they could be good indicators of fire intensity and atmospheric conditions, respectively. Conversely, variables like 'Scan' and 'Track' in the fire dataset, as well as 'Precipitation' in the climate dataset, display less variation, possibly indicating their limited utility in differentiating fires or assessing their likelihood. Meanwhile, variables such as 'Confidence' and 'Temperature' in the fire data, along with 'Wind Speed' and 'Wind Direction' in the climate data, also show notable variation, hinting at their relevance in evaluating the confidence level in fire detection and understanding fire spread.
