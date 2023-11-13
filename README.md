@@ -159,7 +159,7 @@ Complementing our alert system is a web interface designed for researchers, fire
 
 
 <p align="center">
-  <img src="images/PAGINAWEB.png" alt="Image Alt Text">
+  <img src="images/MAPACONBOT.png" alt="Image Alt Text">
 </p>
 
 
