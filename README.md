@@ -272,7 +272,22 @@ Data sources are mostly from https://firms.modaps.eosdis.nasa.gov/
 2. [DataSets](https://github.com/jbric16/FlameForecast_Project/tree/main/deep_learning/Datasets) for the notebook to work correctly, you only need to load two specific data sets. You can do this using Google Colab's file import capabilities or upload them from Google Drive if they are stored there.
 
 
+
 #### Area to be analyzed 
+
+Popular Python libraries such as matplotlib, seaborn, pandas, and numpy are used for data analysis and visualization. Additionally, the machine learning model implements convolutional neural networks (CNN) and long short-term memory networks (LSTM). The notebook starts by importing these libraries and loading the data set from a CSV file. The data is then binned into 6-hour time intervals to facilitate subsequent analysis.
+
+
+<p align="center">
+Figure 1. Nogales Zone
+</p>
+
+
+<p align="center">
+  <img src="images/lugar.png" alt="Texto Alternativo" width="400"/>
+  <img src="images/NogalesWildfire.jpg" alt="Texto Alternativo" width="600"/>
+</p>
+
 The notebook is designed to predict the path of fires in a specific area of ​​Nogales, Sonora, covering a sampling area of ​​64 km x 64 km, as you can see in figure 1. The data, which ranges from 2016 to 2023, comes from the FIRMS system (Fire Information for Resource Management System). 
 
 <p align="center">
@@ -281,6 +296,14 @@ The notebook is designed to predict the path of fires in a specific area of ​�
 </p>
 
 <p align="center">Above: All the wildfires in the zone of Nogales, Sonora from 2016 to 2023 </p>
+
+#### Data quality
+
+
+In the study of fires and climate conditions, certain variables show considerable variation, making them potentially important factors to consider. For instance, 'Brightness' and 'FRP (Fire Radiative Power)' in the fire dataset, along with 'Apparent Temperature', 'Heat Index', and 'Humidity' in the climate dataset, exhibit a wide range of values, suggesting they could be good indicators of fire intensity and atmospheric conditions, respectively. Conversely, variables like 'Scan' and 'Track' in the fire dataset, as well as 'Precipitation' in the climate dataset, display less variation, possibly indicating their limited utility in differentiating fires or assessing their likelihood. Meanwhile, variables such as 'Confidence' and 'Temperature' in the fire data, along with 'Wind Speed' and 'Wind Direction' in the climate data, also show notable variation, hinting at their relevance in evaluating the confidence level in fire detection and understanding fire spread.
+
+<p align="center"><img src="images/IMAGENESCOMPLETAS.png" alt="Texto Alternativo" width="1000"/></p>
+
 
 ### Dataset
 For deep learning model training, the dataset is a CSV file. The CSV are split approximately into 2 subsets for model training (80%) and validation (20%). We use the following feature as input to train the model:
@@ -307,6 +330,16 @@ The target output depends on how the data has been entered, if each matrix in th
  
  - Once the Convolutional and LSTM model was trained, predictions were generated for the validation set. Precision and completeness metrics were calculated to evaluate its performance. The resulting values ​​were a precision of 82.35% and a completeness of 74.14%.
 
+
+
+
+The model pays special attention to the most recent information, as evidenced by the relationship between "Original Time 4" and "Actual Prediction 5." This feature is essential in situations where the most recent data is the most relevant for making predictions. The model's prediction, as seen in "Actual Prediction 5", appears to filter out and smooth out some of the noise present in the original images. This can be useful in identifying areas of primary interest and eliminating potential false alarms.
+
+<p align="center">
+    <img src="images/Prediction.png" alt="Texto Alternativo" width="800"/>
+  </a>
+</p>
+
 #### Model evaluation
 
 The validation data subset is utilized to assess the ConvLSTM model's performance on data. This allows us to compare the results with other models and check if the model is doign corrdtc. Below are the performance metrics.
@@ -316,12 +349,7 @@ The validation data subset is utilized to assess the ConvLSTM model's performanc
 | ConvLSTM      | 0.92          | 0.75       | 0.99              | 0.99           |
 
 
-The model pays special attention to the most recent information, as evidenced by the relationship between "Original Time 4" and "Actual Prediction 5." This feature is essential in situations where the most recent data is the most relevant for making predictions. The model's prediction, as seen in "Actual Prediction 5", appears to filter out and smooth out some of the noise present in the original images. This can be useful in identifying areas of primary interest and eliminating potential false alarms.
 
-<p align="center">
-    <img src="images/Prediction.png" alt="Texto Alternativo" width="800"/>
-  </a>
-</p>
 
 
 #### Future Work
@@ -333,32 +361,6 @@ The model pays special attention to the most recent information, as evidenced by
 - Train the model with more layers: Experiment with deeper model architectures to capture more complex features.
 
 - Put it into production: Deploy the model in a production environment to evaluate its effectiveness in real-world scenarios.
-
-
-
-
-Popular Python libraries such as matplotlib, seaborn, pandas, and numpy are used for data analysis and visualization. Additionally, the machine learning model implements convolutional neural networks (CNN) and long short-term memory networks (LSTM). The notebook starts by importing these libraries and loading the data set from a CSV file. The data is then binned into 6-hour time intervals to facilitate subsequent analysis.
-
-
-<p align="center">
-Figure 1. Nogales Zone
-</p>
-
-
-<p align="center">
-  <img src="images/lugar.png" alt="Texto Alternativo" width="400"/>
-  <img src="images/NogalesWildfire.jpg" alt="Texto Alternativo" width="600"/>
-</p>
-
-
-#### Data quality
-
-
-In the study of fires and climate conditions, certain variables show considerable variation, making them potentially important factors to consider. For instance, 'Brightness' and 'FRP (Fire Radiative Power)' in the fire dataset, along with 'Apparent Temperature', 'Heat Index', and 'Humidity' in the climate dataset, exhibit a wide range of values, suggesting they could be good indicators of fire intensity and atmospheric conditions, respectively. Conversely, variables like 'Scan' and 'Track' in the fire dataset, as well as 'Precipitation' in the climate dataset, display less variation, possibly indicating their limited utility in differentiating fires or assessing their likelihood. Meanwhile, variables such as 'Confidence' and 'Temperature' in the fire data, along with 'Wind Speed' and 'Wind Direction' in the climate data, also show notable variation, hinting at their relevance in evaluating the confidence level in fire detection and understanding fire spread.
-
-<p align="center"><img src="images/IMAGENESCOMPLETAS.png" alt="Texto Alternativo" width="1000"/></p>
-
-The model pays special attention to the most recent information, as evidenced by the relationship between "Original Time 4" and "Actual Prediction 5." This feature is essential in situations where the most recent data is the most relevant for making predictions. The model's prediction, as seen in "Actual Prediction 5", appears to filter out and smooth out some of the noise present in the original images. This can be useful in identifying areas of primary interest and eliminating potential false alarms.
 
 ### How to run [Random Forest Model](https://github.com/jbric16/FlameForecast_Project/tree/main/Notebooks)
 
