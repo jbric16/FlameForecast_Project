@@ -281,7 +281,7 @@ The notebook is designed to predict the path of fires in a specific area of â€‹â
 
 
 <p align="center">
-    <img src="images/Prediction.png" alt="Texto Alternativo" width="600"/>
+    <img src="images/Prediction.png" alt="Texto Alternativo" width="800"/>
   </a>
 </p>
 
