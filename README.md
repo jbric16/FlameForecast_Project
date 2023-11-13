@@ -280,6 +280,8 @@ The notebook is designed to predict the path of fires in a specific area of â€‹â
 <p align="center">Above: All the wildfires in the zone of Nogales, Sonora from 2016 to 2023 </p>
 
 
+## Model Evaluation
+
 <p align="center">
     <img src="images/Prediction.png" alt="Texto Alternativo" width="800"/>
   </a>
