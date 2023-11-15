@@ -153,15 +153,12 @@ Complementing our alert system is a web interface designed for researchers, fire
 ## 🔥 Wildfire Tracker Web Application
 
 <p align="center">
-  <a href="https://youtu.be/9hpwcJp4veI">
-    <img src="https://img.youtube.com/vi/9hpwcJp4veI/0.jpg" alt="Nombre del Video" width="900">
+  <a href="https://youtu.be/XWTvJQMj_KA">
+    <img src="https://img.youtube.com/vi/XWTvJQMj_KA/0.jpg" alt="Nombre del Video" width="900">
   </a>
 </p>
 
 
-<p align="center">
-  <img src="images/MAPACONBOT.png" alt="Image Alt Text">
-</p>
 
 
 This web application provides a dynamic 3D mapping solution for monitoring and predicting wildfire spread in real-time. Using Mapbox's advanced terrain mapping, users can visualize the affected areas with precision, represented by an overlay on the map. The interactive timeline feature allows for playback of the fire's progression, giving invaluable insights for emergency response and evacuation planning.
