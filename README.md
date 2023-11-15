@@ -61,7 +61,7 @@ Our objective is to employ advanced computer tools and specialized alert systems
 
 In addition to these high-tech solutions, it's important to note that some communities in Sonora do not rely on any formal predictive systems for wildfires. Consequently, our approach also includes the development of analytical tools that utilize locally available objects and knowledge to forecast fire risks. This way, we can offer a more inclusive solution that caters to the diverse needs of the region. Adding to the previous context, an ecologist from the state of Sonora who specializes in wildfires, has stated: 
 
-> "We do not use any system to predict fires; everything we do is based purely on expert judgment."
+> "We do not use any system to predict the trajectory of the fires; everything we do is based purely on expert judgment."
 > Juan Mario Cirett Gálan
 <p align="center">
   <a href="https://www.nmas.com.mx/nmas-local/programas/las-noticias-sonora/videos/impacto-incendios-forestales-medio-ambiente-sonora">
