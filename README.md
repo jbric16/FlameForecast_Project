@@ -149,6 +149,7 @@ Complementing our alert system is a web interface designed for researchers, fire
 
 
 
+
 ## 🔥 Wildfire Tracker Web Application
 
 <p align="center">
