@@ -541,7 +541,7 @@ Note that each team member helped in contribuitng with all this.
 - [Cesar Silva](https://github.com/casrhub)
 - [Daniel Barreras](https://github.com/DanielBrMz)
 
-![Examples](images/Team.jpg)
+![Examples](images/TEAMPHOTO.jpg)
 
 
 
