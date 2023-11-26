@@ -202,7 +202,7 @@ This application serves as a critical tool for communities and first responders 
 In the prototype phase, we utilized Shapr3D to create a 3D model of our device, which takes the shape of a rectangular box. Housed within this box are a LoRa communication module and its corresponding antenna, responsible for receiving data. Additionally, the device is equipped with an auditory alarm system, activated by a buzzer, to alert users in the event of an approaching fire. A push button is also integrated into the design, allowing users to manually deactivate the alarm. Given that the target market for this product comprises communities without access to electrical infrastructure, the device incorporates a solar panel for energy harvesting and recharging. This ensures continuous operation by harnessing sunlight for power, converting it into stored energy, and facilitating effortless recharging of the device. 
 
 <p align="center">
-<img src="images/PROTOTIPO2.jpg" alt="Texto Alternativo" width="500"/>
+<img src="images/PROTOTIPO2.jpg" alt="Texto Alternativo" width="300"/>
 <img src="images/PROTOTYPE.jpg" alt="Texto Alternativo" width="500"/>
 </p>
 
