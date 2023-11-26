@@ -206,6 +206,11 @@ In the prototype phase, we utilized Shapr3D to create a 3D model of our device, 
 <img src="images/PROTOTYPE.jpg" alt="Texto Alternativo" width="500"/>
 </p>
 
+<p align="center">
+<img src="images/LoRa.jpg" alt="Texto Alternativo" width="500"/>
+</p>
+
+
 ## Emergency Response Handheld Device (ERHD) - Development Plan
 
 
