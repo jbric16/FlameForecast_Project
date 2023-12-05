@@ -172,7 +172,14 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 - **User Interface Controls**: Intuitive icons allow users to toggle map layers, tools, and access additional information.
 - **Navigation Data Display**: Real-time updates on latitude, longitude, eye level, temperature, and territory for detailed monitoring.
 - **Responsive Design**: Tailwind CSS ensures a mobile-friendly and responsive layout across all devices.
-- **FlameGuardian Chatbot**: An interactive chatbot for users to ask questions and receive advice about wildfires, enhancing user engagement and providing valuable information.
+- **FlameGuardian Chatbot**: An interactive chatbot for users to ask questions and receive advice about wildfires, enhancing user engagement and providing valuable information. Currently you can only test it by asking the following: "What do I do if this wildfire is 20 km away from me?". "tell me the conditions of the wildfire". "give me the prediction graphs". "how much would it take to reforest again?". "give me the type of vegetation in the area". "what can i do to help?". "give me emergency numbers near the wildfire" and "thank you".
+
+<p align="center">
+  <a href="https://youtu.be/w40M8h83O9w">
+    <img src="https://img.youtube.com/vi/w40M8h83O9w/0.jpg" alt="Nombre del Video" width="900">
+  </a>
+</p>
+
 
 ## 🛠 Technologies
 
