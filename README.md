@@ -169,6 +169,11 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 - **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
 - **Time Control Playback**: Scrub through time to view the fire's trajectory at different stages.
 - **Real-Time Alerts**: A dedicated panel lists the alerts sent, indicating the predicted time for the fire to reach key locations, enhancing situational awareness.
+
+<p align="center">
+<img src="images/ALERTS.png" alt="Texto Alternativo" width="600"/>
+</p>
+  
 - **User Interface Controls**: Intuitive icons allow users to toggle map layers, tools, and access additional information.
 - **Navigation Data Display**: Real-time updates on latitude, longitude, eye level, temperature, and territory for detailed monitoring.
 - **Responsive Design**: Tailwind CSS ensures a mobile-friendly and responsive layout across all devices.
