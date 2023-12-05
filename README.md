@@ -154,13 +154,12 @@ Complementing our alert system is a web interface designed for researchers, fire
 
 ## 🔥 Wildfire Tracker Web Application
 
+
 <p align="center">
-  <a href="https://youtu.be/w40M8h83O9w">
-    <img src="https://img.youtube.com/vi/w40M8h83O9w/0.jpg" alt="Nombre del Video" width="900">
+  <a href="https://youtu.be/aafGYcVPR9o">
+    <img src="https://img.youtube.com/vi/aafGYcVPR9o/0.jpg" alt="Nombre del Video" width="900">
   </a>
 </p>
-
-
 
 
 
