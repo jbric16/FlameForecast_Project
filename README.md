@@ -169,7 +169,7 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 - **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
 - **Time Control Playback**: Scrub through time to view the fire's trajectory at different stages.
-- **Real-Time Alerts**: A dedicated panel lists the alerts sent, indicating the predicted time for the fire to reach key locations, enhancing situational awareness.
+- **Real-Time Alerts**: A dedicated panel lists the alerts sent, indicating the predicted time for the fire to reach key locations, enhancing situational awareness. Additionally, green dots are highlighted on the map, representing the LoRa devices that are receiving the alert. This feature allows for real-time tracking of the alert dissemination and reception.
 
 <p align="center">
 <img src="images/ALERTS.png" alt="Texto Alternativo" width="600"/>
