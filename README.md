@@ -10,9 +10,7 @@
 
 Team: [Phoenix Eye or Rocket Hacks](https://www.spaceappschallenge.org/2023/find-a-team/rocket-hacks/)
 
-
-
-A resilient Machine Learning system for forecasting future time-lapsed wildfire events and providing vital notifications to underserved regions with limited internet and power access. This pioneering solution harnesses LoRa communication technology to deliver timely alerts, fortifying community safety.
+A resilient Machine Learning system designed to forecast the trajectory of wildfires and provide vital notifications to underserved regions with limited internet and power access. This pioneering solution leverages LoRa communication technology to deliver timely alerts, thereby enhancing community safety.
 
 ## Map of Contents
 1. [About the project](#About-the-project)
