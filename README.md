@@ -424,7 +424,8 @@ Examples from the data set as variables
 The notebook analyze land surface temperature in Nogales and Imuris using data from MODIS and Earth Engine. It starts with authentication in Earth Engine, followed by importing and selecting LST data. Geographic coordinates are defined for both locations, and the average LST is calculated. The data is converted into dataframes with Pandas, cleaned and transformed. Graphs and a sinusoidal fit are used to visualize and analyze temporal variations in temperature, providing a detailed understanding of the climatic conditions in these regions.
 
 <p align="center">
-    <img src="images/Prediction.png" alt="Texto Alternativo" width="800"/>
+    <img src="images/NOGALES.png" alt="Texto Alternativo" width="800"/>
+    <img src="images/IMURIS.png" alt="Texto Alternativo" width="800"/>
   </a>
 </p>
 
