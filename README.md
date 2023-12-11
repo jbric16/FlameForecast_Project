@@ -21,14 +21,15 @@ A Machine Learning system designed to forecast the trajectory of wildfires and p
 6. [Dataset preparation](#Dataset-preparation)  
 7. [Instructions to Run Models](#Instructions-to-Run-Models)
 8. [Models Comparisson](#Models-Comparisson)
-9. [LoRa communication](#LoRa-Communication)
-10. [Fire Prediction System Architecture: A Future Plan](#fire-prediction-system-architecture-a-future-plan)
-11. [Business Model](#Business-Model)
-12. [Future](#Future)
-13. [File Descriptions](#File-Descriptions)
-14. [Document or report](#Document-or-report)
-15. [Languages, frameworks, platforms, APIs, & other technologies used](#Languages,-frameworks,-platforms,-APIs,-&-other-technologies-used)
-16. [Team members & their contributions](#Team-members-&-their-contributions)
+9. [Analysis of NASA data](#Analysis-of-NASA-data])
+10. [LoRa communication](#LoRa-Communication)
+11. [Fire Prediction System Architecture: A Future Plan](#fire-prediction-system-architecture-a-future-plan)
+12. [Business Model](#Business-Model)
+13. [Future](#Future)
+14. [File Descriptions](#File-Descriptions)
+15. [Document or report](#Document-or-report)
+16. [Languages, frameworks, platforms, APIs, & other technologies used](#Languages,-frameworks,-platforms,-APIs,-&-other-technologies-used)
+17. [Team members & their contributions](#Team-members-&-their-contributions)
 
 ## About the project
 Submission for the https://www.spaceappschallenge.org/2023/challenges/managing-fire-increasing-community-based-fire-management-opportunities/
