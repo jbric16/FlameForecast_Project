@@ -419,6 +419,7 @@ Examples from the data set as variables
 
 ## Analysis of NASA data
 
+All the notebooks you can find it here:  [Notebook](https://github.com/jbric16/FlameForecast_Project/tree/main/Notebooks)
 ### Comparative Analysis of Land Surface Temperature in Nogales and Imuris Using Data from MODIS and Earth Engine
 
 The notebook analyze land surface temperature in Nogales and Imuris using data from MODIS and Earth Engine. It starts with authentication in Earth Engine, followed by importing and selecting LST data. Geographic coordinates are defined for both locations, and the average LST is calculated. The data is converted into dataframes with Pandas, cleaned and transformed. Graphs and a sinusoidal fit are used to visualize and analyze temporal variations in temperature, providing a detailed understanding of the climatic conditions in these regions.
