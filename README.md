@@ -27,7 +27,7 @@ A Machine Learning system designed to forecast the trajectory of wildfires and p
 12. [Business Model](#Business-Model)
 13. [Future](#Future)
 14. [File Descriptions](#File-Descriptions)
-15. [Document or report](#Document-or-report)
+15. [Scientific support of the project presented in Paper format](#Scientific-support-of-the-project-presented-in-Paper-format)
 16. [Languages, frameworks, platforms, APIs, & other technologies used](#Languages,-frameworks,-platforms,-APIs,-&-other-technologies-used)
 17. [Team members & their contributions](#Team-members-&-their-contributions)
 
@@ -562,7 +562,7 @@ In the future, we also plan to integrate SMS (Short Message Service) technology 
 * [Notebooks](https://github.com/jbric16/FlameForecast_Project/tree/main/Notebooks): This section comprises two pivotal notebook files, each designed for specific tasks. One is engineered to execute next-day fire predictions using the Random Forest model, while the other is tailored for the implementation of Convolutional Neural Networks (CNN) combined with Long Short-Term Memory (LSTM) models for advanced forecasting.
 
 
-## Document or report 
+## Scientific support of the project presented in Paper format
 
 
 ## Languages, frameworks, platforms, APIs, & other technologies used
