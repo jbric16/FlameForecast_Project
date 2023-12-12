@@ -563,8 +563,10 @@ In the future, we also plan to integrate SMS (Short Message Service) technology 
 
 
 ## Scientific support of the project presented in Paper format
-https://docs.google.com/document/d/1dOmdnelEhOcSqVbjqbWYusgqsC3Sbw8lMcoa3gTpBO4/edit?usp=sharing 
-![image](https://github.com/jbric16/FlameForecast_Project/assets/113316842/d0eaf892-7e89-45eb-a7f1-73d537be1c8a)
+Link to the document: https://docs.google.com/document/d/1dOmdnelEhOcSqVbjqbWYusgqsC3Sbw8lMcoa3gTpBO4/edit?usp=sharing 
+
+![image](https://github.com/jbric16/FlameForecast_Project/assets/113316842/9df99c04-0ce2-48ce-b7d5-6dea98c10b85)
+
 
 
 ## Languages, frameworks, platforms, APIs, & other technologies used
