@@ -559,7 +559,7 @@ In the future, we also plan to integrate SMS (Short Message Service) technology 
 ## File Descriptions 
 * [LoRa](https://github.com/jbric16/FlameForecast_Project/tree/main/LoRa): This section is dedicated to the implementation of LoRa technology in conjunction with Arduino and the Helium network. Its primary function is to serve as an alert receiver. Within this directory, you will find two key files: a .ino file designed for Arduino simulation, and another .ino file tailored for the implementation of LoRa WAN connectivity via the Helium network.
 
-* [Notebooks](https://github.com/jbric16/FlameForecast_Project/tree/main/Notebooks): This section comprises two pivotal notebook files, each designed for specific tasks. One is engineered to execute next-day fire predictions using the Random Forest model, while the other is tailored for the implementation of Convolutional Neural Networks (CNN) combined with Long Short-Term Memory (LSTM) models for advanced forecasting.
+* [Notebooks](https://github.com/jbric16/FlameForecast_Project/tree/main/Notebooks): This section comprises notebook files in which we analyze the data from NASA.
 
 
 ## Scientific support of the project presented in Paper format
