@@ -10,7 +10,7 @@
 
 Team: [Phoenix Eye or Rocket Hacks](https://www.spaceappschallenge.org/2023/find-a-team/rocket-hacks/)
 
-A Machine Learning system designed to forecast the trajectory of wildfires and provide vital notifications to underserved regions with limited internet and power access. This pioneering solution leverages LoRa communication technology to deliver timely alerts, enhancing community safety. Additionally, the predictions of wildfire trajectories can be viewed on a website featuring a 3D map, offering an interactive and detailed visualization of potential fire spread.
+A Machine Learning system designed to forecast the spread  of wildfires and provide vital notifications to underserved regions with limited internet and power access. This pioneering solution leverages LoRa communication technology to deliver timely alerts, enhancing community safety. Additionally, the predictions of wildfire trajectories can be viewed on a website featuring a 3D map, offering an interactive and detailed visualization of potential fire spread.
 
 ## Map of Contents
 1. [About the project](#About-the-project)
