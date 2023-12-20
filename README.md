@@ -438,6 +438,10 @@ The Area of Interest is defined as a polygon using a specific set of coordinates
 
 This analysis could be used for a variety of applications, such as environmental monitoring, urban planning, agriculture, and the study of local ecosystems. By applying tools such as Google Earth Engine and Folium, the code makes it easy to visualize and analyze trends in vegetation and other geospatial aspects of the Nogales region over time.
 
+<p align="center">
+    <img src="images/NVDI.png" alt="Texto Alternativo" width="800"/>
+  </a>
+</p>
 
 
 
