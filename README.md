@@ -424,6 +424,16 @@ All the notebooks you can find it here:  [Notebook](https://github.com/jbric16/F
 
 The notebook analyze land surface temperature in Nogales and Imuris using data from MODIS and Earth Engine. It starts with authentication in Earth Engine, followed by importing and selecting LST data. Geographic coordinates are defined for both locations, and the average LST is calculated. The data is converted into dataframes with Pandas, cleaned and transformed. Graphs and a sinusoidal fit are used to visualize and analyze temporal variations in temperature, providing a detailed understanding of the climatic conditions in these regions.
 
+
+### Temporal Analysis and Visualization of NDVI in Nogales with Google Earth Engine and Folium
+
+The notebook provided includes a geospatial analysis focused on a specific Area of Interest (AOI). The geographic location used for the analysis is Nogales, a city located on the border between Mexico and the United States. This interpretation is based on the geographic coordinates provided in the code, which define the AOI polygon.
+
+The Area of Interest is defined as a polygon using a specific set of coordinates. These coordinates delimit an area that is used to extract and analyze relevant geospatial data, such as the Normalized Difference Vegetation Index (NDVI). NDVI is a key indicator in remote sensing to evaluate vegetation and its health.
+
+This analysis could be used for a variety of applications, such as environmental monitoring, urban planning, agriculture, and the study of local ecosystems. By applying tools such as Google Earth Engine and Folium, the code makes it easy to visualize and analyze trends in vegetation and other geospatial aspects of the Nogales region over time.
+
+
 <p align="center">
     <img src="images/NOGALES.png" alt="Texto Alternativo" width="800"/>
     <img src="images/IMURIS.png" alt="Texto Alternativo" width="800"/>
