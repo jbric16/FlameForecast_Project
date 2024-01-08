@@ -192,9 +192,9 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 
 <p align="center">
-<img src="images/Chatbot2.png" alt="Texto Alternativo" width="600"/>
-<img src="images/Chatbot3.png" alt="Texto Alternativo" width="600"/>
-<img src="images/Chatbot4.png" alt="Texto Alternativo" width="600"/>
+<img src="images/Chatbot2.png" alt="Texto Alternativo" width="400"/>
+<img src="images/Chatbot3.png" alt="Texto Alternativo" width="400"/>
+<img src="images/Chatbot4.png" alt="Texto Alternativo" width="400"/>
   
 </p>
 
