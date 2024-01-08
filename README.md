@@ -192,7 +192,10 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 
 <p align="center">
-<img src="images/ONLYBOT.png" alt="Texto Alternativo" width="600"/>
+<img src="images/Chatbot2.png" alt="Texto Alternativo" width="600"/>
+<img src="images/Chatbot3.png" alt="Texto Alternativo" width="600"/>
+<img src="images/Chatbot4.png" alt="Texto Alternativo" width="600"/>
+  
 </p>
 
 - **Interactive Fire Information Display**: When you click on a fire on the map, a pop-up window appears with detailed information about that specific fire. This information may include details such as start date, coordinates, trajectory prediction  (Machine Learning Sequence) , and any information specific to the affected area. This provides users with quick and easy access to critical information directly on the map, improving the usability and efficiency of the application.
