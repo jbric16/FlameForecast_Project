@@ -204,6 +204,15 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 <img src="images/FIREPOPUP.png" alt="Texto Alternativo" width="600"/>
 </p>
 
+- **Wildfire Prediction Dashboard**: This interface offers an in-depth view of active wildfires. When you select the Nogales fire on the map, a comprehensive panel opens, presentingthe wildfire. It displays the fire's start and end time, area size, and current conditions such as wind direction and speed. The 'Data' section gives insights into fuel types, topography, and relative humidity, crucial for understanding fire behavior. The trajectory prediction, powered by machine learning, visualizes the potential path of the fire, assisting in strategizing containment efforts. This tool brings vital fire details to users' fingertips, enhancing situational awareness and facilitating strategic decision-making in real-time.
+
+
+
+<p align="center">
+<img src="images/PREDICTION.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+
 
 
 ## 🛠 Technologies
