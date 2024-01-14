@@ -166,6 +166,14 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 ## 🌟 Features
 
+- **Wildfire Prediction Dashboard**: This interface offers an in-depth view of active wildfires. When you select the Nogales fire on the map, a comprehensive panel opens, presentingthe wildfire. It displays the fire's start and end time, area size, and current conditions such as wind direction and speed. The 'Data' section gives insights into fuel types, topography, and relative humidity, crucial for understanding fire behavior. The trajectory prediction, powered by machine learning, visualizes the potential path of the fire, assisting in strategizing containment efforts. This tool brings vital fire details to users' fingertips, enhancing situational awareness and facilitating strategic decision-making in real-time.
+
+
+
+<p align="center">
+<img src="images/PREDICTION.png" alt="Texto Alternativo" width="600"/>
+</p>
+
 - **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
 - **Time Control Playback**: Scrub through time to view the fire's trajectory at different stages.
 - **Real-Time Alerts**: A dedicated panel lists the alerts sent, indicating the predicted time for the fire to reach key locations, enhancing situational awareness. Additionally, green dots are highlighted on the map, representing the LoRa devices that are receiving the alert. This feature allows for real-time tracking of the alert dissemination and reception.
@@ -204,13 +212,6 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 <img src="images/FIREPOPUP.png" alt="Texto Alternativo" width="600"/>
 </p>
 
-- **Wildfire Prediction Dashboard**: This interface offers an in-depth view of active wildfires. When you select the Nogales fire on the map, a comprehensive panel opens, presentingthe wildfire. It displays the fire's start and end time, area size, and current conditions such as wind direction and speed. The 'Data' section gives insights into fuel types, topography, and relative humidity, crucial for understanding fire behavior. The trajectory prediction, powered by machine learning, visualizes the potential path of the fire, assisting in strategizing containment efforts. This tool brings vital fire details to users' fingertips, enhancing situational awareness and facilitating strategic decision-making in real-time.
-
-
-
-<p align="center">
-<img src="images/PREDICTION.png" alt="Texto Alternativo" width="600"/>
-</p>
 
 
 
