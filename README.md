@@ -182,7 +182,8 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the fires available in that specific state. Four fires are presented as options: "NOGALES FIRE", "IMURIS FIRE", "HERMOSILLO FIRE", and "YECORA FIRE". When you select one of these fires, it is highlighted on the map with a blue circle surrounding the area of interest. This circle facilitates visual identification of the fire to be analyzed and suggests that the application will proceed to display the predicted trajectory for the selected fire, thus offering an interactive and visual tool for planning responses to wildfires.
 
 <p align="center">
-<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+<img src="images/3.2.png" alt="Texto Alternativo" width="600"/>
+<img src="images/4.2.png" alt="Texto Alternativo" width="600"/>
 </p>
 
 
