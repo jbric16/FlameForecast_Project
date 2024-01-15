@@ -182,11 +182,6 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 <img src="images/ALERTS.png" alt="Texto Alternativo" width="600"/>
 </p>
   
-- **User Interface Controls**: Intuitive icons allow users to toggle map layers, tools, and access additional information.
-
-<p align="center">
-<img src="images/EXTRAINFO.png" alt="Texto Alternativo" width="600"/>
-</p>
 
 
 - **Navigation Data Display**: Real-time updates on latitude, longitude, eye level, temperature, and territory for detailed monitoring.
@@ -210,6 +205,12 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 <p align="center">
 <img src="images/FIREPOPUP.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+- **User Interface Controls**: Intuitive icons allow users to toggle map layers, tools, and access additional information.
+
+<p align="center">
+<img src="images/EXTRAINFO.png" alt="Texto Alternativo" width="600"/>
 </p>
 
 
