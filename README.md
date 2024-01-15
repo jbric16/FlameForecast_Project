@@ -194,6 +194,31 @@ After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the 
 <img src="images/5P.png" alt="Texto Alternativo" width="600"/>
 </p>
 
+- **Analysis Section**: This section includes critical data that helps understand the potential impact of the fire. Aspects such as the size of the fire, the affected population and critical structures at risk, such as vital infrastructure and emergency services, are detailed. It also includes three essential indicators:
+
+**LOC (Level of Concern)** : Evaluates the level of concern or risk associated with the fire.
+
+<p align="center">
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+**Fire Behavior**: Provides crucial information about the current behavior of the fire. This indicator evaluates several aspects of the fire, including its speed of spread and key characteristics.
+
+<p align="center">
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+**Weather**: Summary information about current weather conditions affecting the fire, including temperature, humidity, precipitation, and wind
+
+<p align="center">
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+This dashboard is a valuable tool for decision makers as it provides a quick and accessible assessment of fire risk and behavior, allowing for a more informed and effective response.
+ 
+
+
 - **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
 - **Time Control Playback**: Scrub through time to view the fire's trajectory at different stages.
 - **Real-Time Alerts**: A dedicated panel lists the alerts sent, indicating the predicted time for the fire to reach key locations, enhancing situational awareness. Additionally, green dots are highlighted on the map, representing the LoRa devices that are receiving the alert. This feature allows for real-time tracking of the alert dissemination and reception.
