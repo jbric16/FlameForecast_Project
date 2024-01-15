@@ -202,13 +202,13 @@ After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the 
 <img src="images/VERYLOW.png" alt="Texto Alternativo" width="600"/>
 </p>
 
-**Fire Behavior**: Provides crucial information about the current behavior of the fire. This indicator evaluates several aspects of the fire, including its speed of spread and key characteristics.
+**Fire Behavior** : Provides crucial information about the current behavior of the fire. This indicator evaluates several aspects of the fire, including its speed of spread and key characteristics.
 
 <p align="center">
 <img src="images/FIREBEHAVIOR.png" alt="Texto Alternativo" width="600"/>
 </p>
 
-**Weather**: Summary information about current weather conditions affecting the fire, including temperature, humidity, precipitation, and wind
+**Weather** : Summary information about current weather conditions affecting the fire, including temperature, humidity, precipitation, and wind
 
 <p align="center">
 <img src="images/WEATHER.png" alt="Texto Alternativo" width="600"/>
