@@ -191,7 +191,7 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 </p>
   
 - **Responsive Design**: Tailwind CSS ensures a mobile-friendly and responsive layout across all devices.
-- **FlameGuardian Chatbot**: An interactive chatbot for users to ask questions and receive advice about wildfires, enhancing user engagement and providing valuable information. Currently you can only test it by asking the following: "What do I do if this wildfire is 20 km away from me?". "tell me the conditions of the wildfire". "give me the prediction graphs". "how much would it take to reforest again?". "give me the type of vegetation in the area". "what can i do to help?". "give me emergency numbers near the wildfire" and "thank you".
+- **FlameGuardian Chatbot**: An interactive tool designed to provide users with real-time updates, forecasts and security advice. It facilitates direct and personalized communication, allowing users to consult the situation of specific fires, receive alerts, and access detailed information on the spread and containment of the fire. With the ability to sign up for alerts and verify the safety of particular areas, FlameGuardian helps foster wildfire preparedness and awareness, offering an intuitive interface that integrates forecast data and interactive maps for better emergency management and community response. Currently you can only test it by asking the following: "What do I do if this wildfire is 20 km away from me?". "tell me the conditions of the wildfire". "give me the prediction graphs". "how much would it take to reforest again?". "give me the type of vegetation in the area". "what can i do to help?". "give me emergency numbers near the wildfire" and "thank you".
 
 
 <p align="center">
