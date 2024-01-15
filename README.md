@@ -166,8 +166,27 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 ## 🌟 Features
 
-- **Wildfire Prediction Dashboard**: This interface offers an in-depth view of active wildfires. When you select the Nogales fire on the map, a comprehensive panel opens, presentingthe wildfire. It displays the fire's start and end time, area size, and current conditions such as wind direction and speed. The 'Data' section gives insights into fuel types, topography, and relative humidity, crucial for understanding fire behavior. The trajectory prediction, powered by machine learning, visualizes the potential path of the fire, assisting in strategizing containment efforts. This tool brings vital fire details to users' fingertips, enhancing situational awareness and facilitating strategic decision-making in real-time.
+- **Phoenix Eye Control Panel**: : Is an interactive toolbar that is part of an advanced system for monitoring and managing forest fires. It offers a number of critical features such as real-time fire trajectory prediction, early fire approach warnings, a layering feature for visualization of diverse geospatial data, tools to simulate fire spread, and custom configuration options. This dashboard is essential for users who need a complete platform for rapid and effective response to fire emergencies.
 
+- <p align="center">
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+- **Wildfire Path Predictor**: The process begins with a user interface element, a drop-down menu labeled "SELECT COUNTRY". This menu offers users a choice among four countries: Canada, Mexico, the United States, and Brazil, indicating the application's capability to operate across these diverse geographical regions. Upon selecting a country, the interface progresses to a subsequent drop-down menu titled “SELECT FIRE TO PREDICT”. Here, users are presented with a list of actual wildfires like “NOGALES FIRE”, “IMURIS FIRE”, “HERMOSILLO FIRE”, and “YECORA FIRE”. This step allows users to select a specific fire incident they wish to analyze or receive predictions for. These options refer to real, ongoing wildfire events, making the application a practical tool for real-time monitoring and prediction efforts.
+
+<p align="center">
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the fires available in that specific state. Four fires are presented as options: "NOGALES FIRE", "IMURIS FIRE", "HERMOSILLO FIRE", and "YECORA FIRE". When you select one of these fires, it is highlighted on the map with a blue circle surrounding the area of interest. This circle facilitates visual identification of the fire to be analyzed and suggests that the application will proceed to display the predicted trajectory for the selected fire, thus offering an interactive and visual tool for planning responses to wildfires.
+
+<p align="center">
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+- **Wildfire Prediction Dashboard**: A sophisticated interface activated upon selecting a specific fire incident on the map. This dashboard provides a detailed analysis of the "NOGALES FIRE," including input sections for precise prediction modeling. It presents critical fire characteristics such as start time, size, shading, and environmental conditions including wind and fuel type. Advanced inputs like topography, aspect, and live moisture are available, offering a comprehensive understanding of the fire's dynamics. Additionally, the dashboard displays a visual simulation overlay on the map indicating the fire's potential spread, which is pivotal for planning and executing firefighting strategies. This tool is essential for emergency responders and analysts who require in-depth, actionable data to enhance situational awareness and support real-time decision-making during wildfire events.
 
 
 <p align="center">
