@@ -168,15 +168,15 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 - **Phoenix Eye Control Panel**: : Is an interactive toolbar that is part of an advanced system for monitoring and managing forest fires. It offers a number of critical features such as real-time fire trajectory prediction, early fire approach warnings, a layering feature for visualization of diverse geospatial data, tools to simulate fire spread, and custom configuration options. This dashboard is essential for users who need a complete platform for rapid and effective response to fire emergencies.
 
-- <p align="center">
-<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+<p align="center">
+<img src="images/ControlPanel.png" alt="Texto Alternativo" width="600"/>
 </p>
 
 
 - **Wildfire Path Predictor**: The process begins with a user interface element, a drop-down menu labeled "SELECT COUNTRY". This menu offers users a choice among four countries: Canada, Mexico, the United States, and Brazil, indicating the application's capability to operate across these diverse geographical regions. Upon selecting a country, the interface progresses to a subsequent drop-down menu titled “SELECT FIRE TO PREDICT”. Here, users are presented with a list of actual wildfires like “NOGALES FIRE”, “IMURIS FIRE”, “HERMOSILLO FIRE”, and “YECORA FIRE”. This step allows users to select a specific fire incident they wish to analyze or receive predictions for. These options refer to real, ongoing wildfire events, making the application a practical tool for real-time monitoring and prediction efforts.
 
 <p align="center">
-<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
+<img src="images/CS.png" alt="Texto Alternativo" width="600"/>
 </p>
 
 After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the fires available in that specific state. Four fires are presented as options: "NOGALES FIRE", "IMURIS FIRE", "HERMOSILLO FIRE", and "YECORA FIRE". When you select one of these fires, it is highlighted on the map with a blue circle surrounding the area of interest. This circle facilitates visual identification of the fire to be analyzed and suggests that the application will proceed to display the predicted trajectory for the selected fire, thus offering an interactive and visual tool for planning responses to wildfires.
