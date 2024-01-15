@@ -171,7 +171,7 @@ This web application provides a dynamic 3D mapping solution for monitoring and p
 
 
 <p align="center">
-<img src="images/PREDICTION.png" alt="Texto Alternativo" width="600"/>
+<img src="images/5P.png" alt="Texto Alternativo" width="600"/>
 </p>
 
 - **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
