@@ -205,13 +205,13 @@ After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the 
 **Fire Behavior** : Provides crucial information about the current behavior of the fire. This indicator evaluates several aspects of the fire, including its speed of spread and key characteristics.
 
 <p align="center">
-<img src="images/FIREBEHAVIOR.png" alt="Texto Alternativo" width="600"/>
+<img src="images/FIREBEHAVIOR.png" alt="Texto Alternativo" width="400"/>
 </p>
 
 **Weather** : Summary information about current weather conditions affecting the fire, including temperature, humidity, precipitation, and wind
 
 <p align="center">
-<img src="images/WEATHER.png" alt="Texto Alternativo" width="600"/>
+<img src="images/WEATHER.png" alt="Texto Alternativo" width="400"/>
 </p>
 
 
@@ -220,14 +220,14 @@ This dashboard is a valuable tool for decision makers as it provides a quick and
 - **Results Section** : Detailed data and projections related to the Nogales fire are shown. It features metrics such as the predicted shape of the fire, the distance it is expected to travel, the probability that trees will ignite, and the distance that embers can be transported. It also displays information on fire spread on the surface, flame length and burning rates, as well as the recommended safety distance.
 
 <p align="center">
-<img src="images/WEATHER.png" alt="Texto Alternativo" width="600"/>
+<img src="images/RESULTS.png" alt="Texto Alternativo" width="400"/>
 </p>
 
 
 - **Charts Section** : An interactive graph for fire analysis is displayed, allowing users to select and compare different variables on the X and Y axes. With a "Fuel Type" legend, the graph illustrates how different fuel types would affect fire behavior. The drop-down controls adjust the variables displayed on the chart. This tool is designed to assist in understanding fire dynamics under various fuel and moisture conditions.
 
 <p align="center">
-<img src="images/WEATHER.png" alt="Texto Alternativo" width="600"/>
+<img src="images/CHARTS.png" alt="Texto Alternativo" width="600"/>
 </p>
 
 
@@ -252,9 +252,9 @@ This dashboard is a valuable tool for decision makers as it provides a quick and
 
 
 <p align="center">
-<img src="images/Chatbot2.png" alt="Texto Alternativo" width="400"/>
-<img src="images/Chatbot3.png" alt="Texto Alternativo" width="385"/>
-<img src="images/Chatbot4.png" alt="Texto Alternativo" width="400"/>
+<img src="images/Chatbot2.png" alt="Texto Alternativo" width="300"/>
+<img src="images/Chatbot3.png" alt="Texto Alternativo" width="320"/>
+<img src="images/Chatbot4.png" alt="Texto Alternativo" width="300"/>
   
 </p>
 
