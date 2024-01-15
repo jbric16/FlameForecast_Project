@@ -217,6 +217,18 @@ After choosing a state, a menu titled "SELECT FIRE TO PREDICT" appears with the 
 
 This dashboard is a valuable tool for decision makers as it provides a quick and accessible assessment of fire risk and behavior, allowing for a more informed and effective response.
  
+- **Results Section** : Detailed data and projections related to the Nogales fire are shown. It features metrics such as the predicted shape of the fire, the distance it is expected to travel, the probability that trees will ignite, and the distance that embers can be transported. It also displays information on fire spread on the surface, flame length and burning rates, as well as the recommended safety distance.
+
+<p align="center">
+<img src="images/WEATHER.png" alt="Texto Alternativo" width="600"/>
+</p>
+
+
+- **Charts Section** : An interactive graph for fire analysis is displayed, allowing users to select and compare different variables on the X and Y axes. With a "Fuel Type" legend, the graph illustrates how different fuel types would affect fire behavior. The drop-down controls adjust the variables displayed on the chart. This tool is designed to assist in understanding fire dynamics under various fuel and moisture conditions.
+
+<p align="center">
+<img src="images/WEATHER.png" alt="Texto Alternativo" width="600"/>
+</p>
 
 
 - **3D Terrain Visualization**: Realistic topography rendered using Mapbox to display current and predicted fire spread.
