@@ -671,6 +671,7 @@ Link to the document: https://docs.google.com/document/d/1dOmdnelEhOcSqVbjqbWYus
 
 Note that each team member helped in contribuitng with all this. 
 
+- [Daniel Barreras](https://github.com/DanielBrMz)
 - [Hector Gutierrez](https://github.com/HectorGtz27)
 - [Jose Briceño](https://github.com/jbric16)
 - [Camila Rodriguez](https://github.com/camilardgzm)
