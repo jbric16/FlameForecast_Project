@@ -677,6 +677,7 @@ Note that each team member helped in contribuitng with all this.
 - [Camila Rodriguez](https://github.com/camilardgzm)
 - [Mariana Garcia](https://github.com/marianaagrcg)
 - [Cesar Silva](https://github.com/casrhub)
+- [Julian Espinoza](https://github.com/casrhub)
 
 ![Examples](images/TEAMPHOTO.jpg)
 
