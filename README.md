@@ -141,7 +141,7 @@ Complementing our alert system is a web interface designed for researchers, fire
 ## Video
 
 <p align="center">
-  <a href="https://youtu.be/HrGC5vgw-mE">
+  <a href="https://www.youtube.com/watch?v=03a_MQww_Cs">
     <img src="https://img.youtube.com/vi/HrGC5vgw-mE/0.jpg" alt="Nombre del Video" width="900">
   </a>
 </p>
@@ -155,7 +155,7 @@ Complementing our alert system is a web interface designed for researchers, fire
 
 
 <p align="center">
-  <a href="https://youtu.be/aafGYcVPR9o">
+  <a href="https://www.youtube.com/watch?v=03a_MQww_Cs">
     <img src="https://img.youtube.com/vi/aafGYcVPR9o/0.jpg" alt="Nombre del Video" width="900">
   </a>
 </p>
